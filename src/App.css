@@ -53,6 +53,15 @@ body {
 }
 
 
+h1 {
+  /* 1 pixel black shadow to left, top, right and bottom */
+  text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+
+  font-family: sans; color: yellow;
+}
+
+
+
 .button {
   border: none;
   color: white;

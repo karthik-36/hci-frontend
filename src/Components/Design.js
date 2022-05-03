@@ -4,7 +4,7 @@ export default class About extends Component {
     render() {
 
 
-
+        
 
 
         return (
@@ -12,6 +12,9 @@ export default class About extends Component {
                 <h2>Design Challenge : Adding new food donations and specifying details </h2>
 
                 <h2>Design Challenge : Tracking food donated and received </h2>
+
+                
+
 
                 <br />
 
