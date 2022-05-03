@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hci-frontend/static/css/main.9fff0d04.chunk.css",
-    "main.js": "/hci-frontend/static/js/main.bc91b2f8.chunk.js",
-    "main.js.map": "/hci-frontend/static/js/main.bc91b2f8.chunk.js.map",
+    "main.css": "/hci-frontend/static/css/main.e91b67b2.chunk.css",
+    "main.js": "/hci-frontend/static/js/main.b5f8372f.chunk.js",
+    "main.js.map": "/hci-frontend/static/js/main.b5f8372f.chunk.js.map",
     "runtime-main.js": "/hci-frontend/static/js/runtime-main.f6346542.js",
     "runtime-main.js.map": "/hci-frontend/static/js/runtime-main.f6346542.js.map",
     "static/css/2.da1eef19.chunk.css": "/hci-frontend/static/css/2.da1eef19.chunk.css",
@@ -12,16 +12,25 @@
     "static/js/3.57f88cdd.chunk.js.map": "/hci-frontend/static/js/3.57f88cdd.chunk.js.map",
     "index.html": "/hci-frontend/index.html",
     "static/css/2.da1eef19.chunk.css.map": "/hci-frontend/static/css/2.da1eef19.chunk.css.map",
-    "static/css/main.9fff0d04.chunk.css.map": "/hci-frontend/static/css/main.9fff0d04.chunk.css.map",
+    "static/css/main.e91b67b2.chunk.css.map": "/hci-frontend/static/css/main.e91b67b2.chunk.css.map",
     "static/js/2.7a4e1c26.chunk.js.LICENSE.txt": "/hci-frontend/static/js/2.7a4e1c26.chunk.js.LICENSE.txt",
     "static/media/concept.0afd505b.jpeg": "/hci-frontend/static/media/concept.0afd505b.jpeg",
-    "static/media/forager1.fcd160d9.png": "/hci-frontend/static/media/forager1.fcd160d9.png"
+    "static/media/forager1.fcd160d9.png": "/hci-frontend/static/media/forager1.fcd160d9.png",
+    "static/media/t11.09d367da.PNG": "/hci-frontend/static/media/t11.09d367da.PNG",
+    "static/media/t12.c535c4fb.PNG": "/hci-frontend/static/media/t12.c535c4fb.PNG",
+    "static/media/t21.2fe06acf.PNG": "/hci-frontend/static/media/t21.2fe06acf.PNG",
+    "static/media/t22.6eeabe24.PNG": "/hci-frontend/static/media/t22.6eeabe24.PNG",
+    "static/media/t23.5cb90a4c.PNG": "/hci-frontend/static/media/t23.5cb90a4c.PNG",
+    "static/media/t24.28c73d13.PNG": "/hci-frontend/static/media/t24.28c73d13.PNG",
+    "static/media/t31.7cec7e6d.PNG": "/hci-frontend/static/media/t31.7cec7e6d.PNG",
+    "static/media/t32.188ade78.PNG": "/hci-frontend/static/media/t32.188ade78.PNG",
+    "static/media/t33.de5e2666.PNG": "/hci-frontend/static/media/t33.de5e2666.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.f6346542.js",
     "static/css/2.da1eef19.chunk.css",
     "static/js/2.7a4e1c26.chunk.js",
-    "static/css/main.9fff0d04.chunk.css",
-    "static/js/main.bc91b2f8.chunk.js"
+    "static/css/main.e91b67b2.chunk.css",
+    "static/js/main.b5f8372f.chunk.js"
   ]
 }
