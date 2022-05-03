@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import t11 from "./images/t11.jpeg"
-import t12 from "./images/t12.jpeg"
-import t21 from "./images/t21.jpeg"
-import t22 from "./images/t22.jpeg"
-import t23 from "./images/t23.jpeg"
-import t31 from "./images/t31.jpeg"
-import t32 from "./images/t32.jpeg"
-import t33 from "./images/t33.jpeg"
+import t11 from "./images/t11.PNG"
+import t12 from "./images/t12.PNG"
+import t21 from "./images/t21.PNG"
+import t22 from "./images/t22.PNG"
+import t23 from "./images/t23.PNG"
+import t31 from "./images/t31.PNG"
+import t32 from "./images/t32.PNG"
+import t33 from "./images/t33.PNG"
 
 
 export default class Form extends Component {
