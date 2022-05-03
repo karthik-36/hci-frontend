@@ -43,7 +43,7 @@ export default class Form extends Component {
 
                 <br />
                 <div style={{ textAlign: "left" }}>  <b> Task 1: Add a new listing for donation/food item </b> </div>
-                <p>
+                <p style={{ textAlign: "left" }}>
                     You have a 20-pound unopened bag of Basmati rice that you won’t be able to finish
                     off. It expires in a month. Instead of throwing away the rice, you decide to put it up for
                     donation so that you can give away the food without wasting it. You want to create a
@@ -56,7 +56,7 @@ export default class Form extends Component {
                 <br />
 
                 <div style={{ textAlign: "left" }}>  <b> Task 2: Editing information for an added donation item </b> </div>
-                <p>
+                <p style={{ textAlign: "left" }}>
                     You realize you’ve made a mistake when you were entering the details for the rice.
                     You’ve entered the wrong quantity for the amount of rice. Your task is to edit the
                     information in the newly added rice listing and rectify the error you’ve made. The listing
@@ -67,7 +67,7 @@ export default class Form extends Component {
                 <br />
 
                 <div style={{ textAlign: "left" }}>  <b> Task 3: Finding a specific food item </b> </div>
-                <p>
+                <p style={{ textAlign: "left" }}>
                     You’ve added cereal to your bowl before realizing that you’re out of milk. Instead of
                     going out to buy milk, you want to check and see if anyone in your community
                     happens to be donating some milk. Your task is to search for milk in the application
@@ -76,8 +76,8 @@ export default class Form extends Component {
                 </p>
 
                 <br />
-                EVALUATION METHOD
-                USERS
+                EVALUATION METHOD USERS
+
                 The study was conducted using “Wizard of Oz”, “Think Aloud” methodologies, and paper
                 prototypes on 3 users. All 3 users are from CS 522
 
@@ -90,11 +90,10 @@ export default class Form extends Component {
                 <img src={t11} />
                 <img src={t12} />
                 <div style={{ textAlign: "left" }}>  <b> Task 1: Add a new listing for donation/food item </b> </div>
-                <li>Inputs/Assumptions
-                    <li>User is on the main screen</li>
-                </li>
+            
 
-                <li style={{ textAlign: "left" }}>Steps
+            <h2>Steps</h2>
+                <ul style={{ textAlign: "left" }}>
                     <li>Click on the green ‘plus’ icon in the bottom right
                         corner of the interface</li>
                     <li>On the new form screen, users can start adding
@@ -106,9 +105,9 @@ export default class Form extends Component {
                     <li>Set quantity of rice to 20 and set unit to pounds</li>
                     <li>Set the expiry date of an item</li>
                     <li>Click ‘Submit’</li>
-                </li>
+                </ul>
 
-                <li style={{ textAlign: "left" }}>Instructions for user Task Card 1
+                <ul style={{ textAlign: "left" }}>Instructions for user Task Card 1
                     <li>Will the users know
                         what to do?
                         Yes. The user realized they need to click on the ‘plus’ sign to
@@ -132,7 +131,7 @@ export default class Form extends Component {
                         ‘plus’ button. Data is being input in a form so users can see
                         text fields being filled.
                     </li>
-                </li>
+                </ul>
 
                 <li style={{ textAlign: "left" }}>Walkthrough Comments
                     <li>The ‘List for days’ was unintuitive and
@@ -148,12 +147,12 @@ export default class Form extends Component {
                 <br />
 
                 <br />
-                
+                {/* <PHOTOS FOR TASK 2> t21, 22, 23*/}
                 <div style={{ textAlign: "left" }} >  <b> Task 2: Editing information for an added donation item
-                    Inputs/Assumptions ● User is on main screen </b> </div>
-                <li>Inputs/Assumptions
+              </b> </div>
+                <ul>Inputs/Assumptions
                     <li>User is on the main screen</li>
-                </li>
+                </ul>
 
                 <ul style={{ textAlign: "left" }}>Steps
                     <li>Click on the ‘timeline’ icon</li>
@@ -195,7 +194,11 @@ export default class Form extends Component {
                     </li>
                 </li>
 
-                <li>Walkthrough Comments
+
+                <br />
+                <h2>Walkthrough Comments </h2>
+                <br />
+                <ul style={{ textAlign: "left" }}>
                     <li>The ‘List for days’ was unintuitive and
                         unrecognizable. Users were unable to understand
                         the meaning behind the term. Something along the
@@ -205,12 +208,12 @@ export default class Form extends Component {
                         noticeable. Also changing it to ‘Select pickup
                         location’ would allow users to get a better
                         understanding of the action needed to be done</li>
-                </li>
+                </ul>
                 <br />
 
 
-                <div style={{ textAlign: "left" }}>  <b> Task 3: Finding a specific food item </b> </div>
-                <p>
+                <div >  <b> Task 3: Finding a specific food item </b> </div>
+                <p style={{ textAlign: "left" }}>
                     You’ve added cereal to your bowl before realizing that you’re out of milk. Instead of
                     going out to buy milk, you want to check and see if anyone in your community
                     happens to be donating some milk. Your task is to search for milk in the application
@@ -226,38 +229,45 @@ export default class Form extends Component {
                 <ul style={{ textAlign: "left" }}>
 
                     <li><img src={t21} />
-                        <img src={t22} />
-                        Fig 1 and 2: Main screen interface and New Donation Form
-                    </li>
-
-
-                    <li>
                         <img src={t23} />
-                        Fig 3: Accessing Rice item
-                        from recent community
-                        donations list
 
                     </li>
+                    <li>  Fig 1 and 2: Main screen interface and New Donation Form</li>
+                    <br />
+                    <li>
+                        <img src={t22} />
+
+
+                    </li>
+
+                    <br />
+                    Fig 3: Accessing Rice item
+                    from recent community
+                    donations list
 
 
                     <li><img src={t31} />
-                        Fig 4: Rice donation view Fig 5: Editing quantity of rice
-                        in Donation form
-                    </li>
 
+                    </li>
+                    Fig 4: Rice donation view Fig 5: Editing quantity of rice
+                    in Donation form
+                    <br />
 
                     <li>
-                    <img src={t32} />
-                        Fig 6: Accessing rice item
-                        from timeline
+                        <img src={t32} />
+
                     </li>
 
-
+                    Fig 6: Accessing rice item
+                    from timeline
+                    <br />
                     <li>
-                    <img src={t33} />
-                        Fig 7: Rice donation view Fig 8: Editing quantity of rice
-                        in Donation for
+                        <img src={t33} />
+
                     </li>
+                    Fig 7: Rice donation view Fig 8: Editing quantity of rice
+                    in Donation for
+                    <br />
 
                 </ul>
 
@@ -282,31 +292,61 @@ export default class Form extends Component {
                 But as screens are displayed to the user, they are able to
                 recognize options and icons related to the task which allows
                 them to proceed in the right direction.
-                Walkthrough Comments ● Timeline icon is not intuitive. Users were unable to
-                connect icons to the concept of a timeline. A change
-                in a more recognizable icon would be better
-                ● When editing the item information, the submit button
-                should have been replaced with an update button
-                ● All users opted to access rice items through the
-                recent community donations list
-                ● Misconception regarding community donations on
-                the main screen as users were under the
-                assumption that the main screen showed users' own
-                donations. Placing text above listings to indicate
-                community donations would be appropriate
-                ● Listings in the timeline doesn’t give affordance of
-                being clickable. Consider adding an arrow or button
-                style layout to allow users to understand that listing
-                is explorable
-                Fig 9: Searching for milk in
+                <h2>Walkthrough Comments  </h2>
+
+                <br />
+<div style={{ textAlign: "left" }}>
+                <p>
+                    ● Timeline icon is not intuitive. Users were unable to
+                    connect icons to the concept of a timeline. A change
+                    in a more recognizable icon would be better
+                </p>
+
+                <p>
+                    ● When editing the item information, the submit button
+                    should have been replaced with an update button
+
+                </p>
+
+
+                <p>
+                    ● All users opted to access rice items through the
+                    recent community donations list
+                </p>
+
+                <p>
+                    ● Misconception regarding community donations on
+                    the main screen as users were under the
+                    assumption that the main screen showed users' own
+                    donations. Placing text above listings to indicate
+                    community donations would be appropriate
+                </p>
+
+
+                <p>
+                    ● Listings in the timeline doesn’t give affordance of
+                    being clickable. Consider adding an arrow or button
+                    style layout to allow users to understand that listing
+                    is explorable
+
+                </p>
+
+
+                </div>
+                {/* Fig 9: Searching for milk in
                 the search bar in the main
                 interface
+
+                
                 Fig 10: Viewing milk item
                 information
                 Fig 11: Status page of milk
-                item listing
-                Task 3: Finding specific food item
-                Inputs/Assumptions ● User is on main screen
+                item listing */}
+               <h2> Task 3: Finding specific food item
+               
+                </h2>
+
+                <p> Inputs/Assumptions : User is on main screen</p>
                 <ul style={{ textAlign: "left" }}> <h3>Steps </h3>
 
 
@@ -326,38 +366,43 @@ export default class Form extends Component {
 
                 <br />
                 <h2>Instructions for user Task Card 3 </h2>
-                Will the users know what
-                to do?
-                Yes, The users easily found the search bar to filter food
-                items.
-                Will the users see how to
-                do it?
-                Yes, They were able to go through the first 2 screens but
-                Struggled to make sense of the received button after
-                accepting the food. (You click on the received button to
-                notify the donor that you have picked up the food).
-                Will the user see that
-                progress is being made
-                toward the solution of
-                the task?
-                Yes, the status of the donation item is displayed on the
-                page (ongoing/received/canceled)
 
+                <p style={{ textAlign: "left" }}>
+                    Will the users know what
+                    to do?
+                    Yes, The users easily found the search bar to filter food
+                    items.
+                    Will the users see how to
+                    do it?
+                    Yes, They were able to go through the first 2 screens but
+                    Struggled to make sense of the received button after
+                    accepting the food. (You click on the received button to
+                    notify the donor that you have picked up the food).
+                    Will the user see that
+                    progress is being made
+                    toward the solution of
+                    the task?
+                    Yes, the status of the donation item is displayed on the
+                    page (ongoing/received/canceled)
+                </p>
                 <br />
 
                 <h2>Walkthrough Comments  </h2>
 
+                <ul style={{ textAlign: "left" }}>
 
-                ● Lack of safety when accepting donations.
-                Suggestion to add confirmation box before
-                proceeding
-                ● No cancel option in case user is unable to receive
-                food item
-                ● Location details can be added in pickup section
-                ● Chat icon in the top right corner was not used by
-                any users. All users opted to access the message
-                icon in the bottom toolbar
+                    <li>Lack of safety when accepting donations.
+                        Suggestion to add confirmation box before
+                        proceeding</li>
+                    <li>No cancel option in case user is unable to receive
+                        food item</li>
+                    <li> Location details can be added in pickup section</li>
+                    <li>Chat icon in the top right corner was not used by
+                        any users. All users opted to access the message
+                        icon in the bottom toolbar</li>
 
+
+                </ul>
 
                 <h2>POTENTIAL CHANGES </h2>
                 ● Task 1
@@ -368,35 +413,35 @@ export default class Form extends Component {
                 ● Task 2
                 <br />
 
-                <ul style = {{textAlign : "left"}}>
-                    
+                <ul style={{ textAlign: "left" }}>
+
                     <li> Change the timeline icon to something more recognizable </li>
                     <li> Add arrows to timeline listings in the timeline screen to indicate that option is
-                explorable </li>
+                        explorable </li>
                     <li> Add “Recent Community Donations” text above item listings on the main page to
-                indicate community donations. </li>
+                        indicate community donations. </li>
 
                 </ul>
-              
-                <br/>
+
+                <br />
                 ● Task 3
                 <br />
 
-                <ul style = {{textAlign : "left"}}>
+                <ul style={{ textAlign: "left" }}>
 
                     <li> Add location details to the acceptance screen </li>
                     <li> Add a cancel button to cancel requests </li>
                     <li> Add a confirmation dialog box to add safety </li>
 
                 </ul>
-                <br/>
-                INDIVIDUAL CONTRIBUTIONS  <br/>
-                <div style = {{textAlign : "left"}}>
-           
-                Karthik Singh: Screens, Task Cards, Changes  <br/>
-                Aditya Ranganathan: Screens, Introduction, Internal Walkthrough
+                <br />
+                INDIVIDUAL CONTRIBUTIONS  <br />
+                <div style={{ textAlign: "left" }}>
+
+                    Karthik Singh: Screens, Task Cards, Changes  <br />
+                    Aditya Ranganathan: Screens, Introduction, Internal Walkthrough
                 </div>
-               
+
 
             </div>
         )

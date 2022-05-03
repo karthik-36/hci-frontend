@@ -16,7 +16,7 @@ export default class About extends Component {
         return (
             <div>
                 <h2> Final</h2>
-                <button class="button button1"   ><span href="https://drive.google.com/file/d/1rFkqY6a6OyLuUzywRs7hXhzwCkBJiuwh/view" >Download the app </span></button>
+                <button class="button button1"  download><span href="https://drive.google.com/file/d/1rFkqY6a6OyLuUzywRs7hXhzwCkBJiuwh/view" >Download the app </span></button>
 
                 <br />
 
