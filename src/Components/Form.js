@@ -85,7 +85,7 @@ export default class Form extends Component {
                     <li>User is on the main screen</li>
                 </li>
 
-                <li style = {{textAlign : "left"}}>Steps
+                <li style={{ textAlign: "left" }}>Steps
                     <li>Click on the green ‘plus’ icon in the bottom right
                         corner of the interface</li>
                     <li>On the new form screen, users can start adding
@@ -99,7 +99,7 @@ export default class Form extends Component {
                     <li>Click ‘Submit’</li>
                 </li>
 
-                <li style = {{textAlign : "left"}}>Instructions for user Task Card 1
+                <li style={{ textAlign: "left" }}>Instructions for user Task Card 1
                     <li>Will the users know
                         what to do?
                         Yes. The user realized they need to click on the ‘plus’ sign to
@@ -125,7 +125,7 @@ export default class Form extends Component {
                     </li>
                 </li>
 
-                <li style = {{textAlign : "left"}}>Walkthrough Comments
+                <li style={{ textAlign: "left" }}>Walkthrough Comments
                     <li>The ‘List for days’ was unintuitive and
                         unrecognizable. Users were unable to understand
                         the meaning behind the term. Something along the
@@ -139,7 +139,7 @@ export default class Form extends Component {
                 <br />
 
                 <br />
-                <div style = {{textAlign : "left"}} >  <b> Task 2: Editing information for an added donation item
+                <div style={{ textAlign: "left" }} >  <b> Task 2: Editing information for an added donation item
                     Inputs/Assumptions ● User is on main screen </b> </div>
                 <li>Inputs/Assumptions
                     <li>User is on the main screen</li>
@@ -213,41 +213,41 @@ export default class Form extends Component {
 
 
 
-                <ul style = {{textAlign : "left"}}>
+                <ul style={{ textAlign: "left" }}>
 
                     <li>
-                Fig 1: Main screen interface Fig 2: New Donation Form
-                </li>
+                        Fig 1: Main screen interface Fig 2: New Donation Form
+                    </li>
 
 
-                <li>
-                Fig 3: Accessing Rice item
-                from recent community
-                donations list
+                    <li>
+                        Fig 3: Accessing Rice item
+                        from recent community
+                        donations list
 
-                </li>
-
-
-                <li>
-                Fig 4: Rice donation view Fig 5: Editing quantity of rice
-                in Donation form
-                </li>
-                
-
-                <li>
-                Fig 6: Accessing rice item
-                from timeline
-                </li>
+                    </li>
 
 
-                <li>
-                Fig 7: Rice donation view Fig 8: Editing quantity of rice
-                in Donation for
-                </li>
+                    <li>
+                        Fig 4: Rice donation view Fig 5: Editing quantity of rice
+                        in Donation form
+                    </li>
+
+
+                    <li>
+                        Fig 6: Accessing rice item
+                        from timeline
+                    </li>
+
+
+                    <li>
+                        Fig 7: Rice donation view Fig 8: Editing quantity of rice
+                        in Donation for
+                    </li>
 
                 </ul>
 
-            <br/>
+                <br />
 
                 Instructions for user Task Card 2
                 Will the users know
@@ -293,24 +293,24 @@ export default class Form extends Component {
                 item listing
                 Task 3: Finding specific food item
                 Inputs/Assumptions ● User is on main screen
-                <ul style = {{textAlign : "left"}}> <h3>Steps </h3>
+                <ul style={{ textAlign: "left" }}> <h3>Steps </h3>
 
 
-                <li> Click on search bar </li>
-                <li> Enter ‘milk’ in search bar  </li>
-                <li> Scroll through milk listings to find appropriate item  </li>
-                <li> Click on milk listing   </li>
-                <li> Views item information   </li>
-                <li> Click ‘Accept’ button once done   </li>
-                <li> View real-time information from the status page and
-                can message donator   </li>
-                <li>  Click on ‘Received’ button once item successfully
-                received  </li>
-               
-               
+                    <li> Click on search bar </li>
+                    <li> Enter ‘milk’ in search bar  </li>
+                    <li> Scroll through milk listings to find appropriate item  </li>
+                    <li> Click on milk listing   </li>
+                    <li> Views item information   </li>
+                    <li> Click ‘Accept’ button once done   </li>
+                    <li> View real-time information from the status page and
+                        can message donator   </li>
+                    <li>  Click on ‘Received’ button once item successfully
+                        received  </li>
+
+
                 </ul>
 
-                <br/> 
+                <br />
                 <h2>Instructions for user Task Card 3 </h2>
                 Will the users know what
                 to do?
@@ -328,7 +328,13 @@ export default class Form extends Component {
                 the task?
                 Yes, the status of the donation item is displayed on the
                 page (ongoing/received/canceled)
-                Walkthrough Comments ● Lack of safety when accepting donations.
+
+                <br />
+
+                <h2>Walkthrough Comments  </h2>
+
+
+                ● Lack of safety when accepting donations.
                 Suggestion to add confirmation box before
                 proceeding
                 ● No cancel option in case user is unable to receive
@@ -337,24 +343,46 @@ export default class Form extends Component {
                 ● Chat icon in the top right corner was not used by
                 any users. All users opted to access the message
                 icon in the bottom toolbar
-                POTENTIAL CHANGES
+
+
+                <h2>POTENTIAL CHANGES </h2>
                 ● Task 1
+                <br />
                 ○ We plan on changing the wording of ‘Pickup Location’ to ‘Select pickup location’
                 so users would have a better understanding of what is needed to be done.
                 Increase the size of text and change placement to a better location
                 ● Task 2
-                ○ Change the timeline icon to something more recognizable
-                ○ Add arrows to timeline listings in the timeline screen to indicate that option is
-                explorable
-                ○ Add “Recent Community Donations” text above item listings on the main page to
-                indicate community donations.
+                <br />
+
+                <ul style = {{textAlign : "left"}}>
+                    
+                    <li> Change the timeline icon to something more recognizable </li>
+                    <li> Add arrows to timeline listings in the timeline screen to indicate that option is
+                explorable </li>
+                    <li> Add “Recent Community Donations” text above item listings on the main page to
+                indicate community donations. </li>
+
+                </ul>
+              
+                <br/>
                 ● Task 3
-                ○ Add location details to the acceptance screen
-                ○ Add a cancel button to cancel requests
-                ○ Add a confirmation dialog box to add safety
-                INDIVIDUAL CONTRIBUTIONS
+                <br />
+
+                <ul style = {{textAlign : "left"}}>
+
+                    <li> Add location details to the acceptance screen </li>
+                    <li> Add a cancel button to cancel requests </li>
+                    <li> Add a confirmation dialog box to add safety </li>
+
+                </ul>
+                <br/>
+                INDIVIDUAL CONTRIBUTIONS  <br/>
+                <div style = {{textAlign : "left"}}>
+           
+                Karthik Singh: Screens, Task Cards, Changes  <br/>
                 Aditya Ranganathan: Screens, Introduction, Internal Walkthrough
-                Karthik Singh: Screens, Task Cards, Changes
+                </div>
+               
 
             </div>
         )
