@@ -41,13 +41,13 @@ export default class About extends Component {
             USERS
             The study was conducted using “Wizard of Oz”, “Think Aloud” methodologies, and paper
             prototypes on 3 users. All 3 users are from CS 522
-            FORMATIVE EVALUATION STEPS
+            <h3>FORMATIVE EVALUATION STEPS</h3>
             1. Before the users were asked to perform the tasks, they were given a brief introduction of
             the system setup and interactions supported by our systems by a facilitator.
             2. Users were asked to perform 3 tasks
             3. One member of the team observed the users while performing tasks for observations.
             TASKS
-            1. TASK CARDS
+            <h3 style = {{textAlign : "left"}}>1. TASK CARDS</h3>
             Task 1: Add a new listing for donation/food item
             You have a 20-pound unopened bag of Basmati rice that you won’t be able to finish
             off. It expires in a month. Instead of throwing away the rice, you decide to put it up for
@@ -56,19 +56,20 @@ export default class About extends Component {
             description of the item and how long till the rice expires amongst others. These details
             should be visible so that anyone interested in receiving the item gets all the
             information.
-            Task 2: Editing information for an added donation item
+            <h3 style = {{textAlign : "left"}}>Task 2: Editing information for an added donation item </h3>
             You realize you’ve made a mistake when you were entering the details for the rice.
             You’ve entered the wrong quantity for the amount of rice. Your task is to edit the
             information in the newly added rice listing and rectify the error you’ve made. The listing
             should then show the updated quantity of rice so that all users interested in receiving
             the item get up-to-date information.
-            Task 3: Finding a specific food item
+            <h3 style = {{textAlign : "left"}}>Task 3: Finding a specific food item</h3>
             You’ve added cereal to your bowl before realizing that you’re out of milk. Instead of
             going out to buy milk, you want to check and see if anyone in your community
             happens to be donating some milk. Your task is to search for milk in the application
             and accept the donation of someone living nearby and notify them once you’ve
             received the item.
-            2. INTERNAL WALKTHROUGH
+            <br/>
+            <h3 style = {{textAlign : "left"}}>2. INTERNAL WALKTHROUGH </h3>
             Fig 1: Main screen interface Fig 2: New Donation Form
             Task 1: Add a new listing for donation/food item
             Inputs/Assumptions ● User is on the main screen
@@ -103,15 +104,23 @@ export default class About extends Component {
             text fields being filled.
             Walkthrough
             Comments
-            ● The ‘List for days’ was unintuitive and
+
+            <ul style ={{textAlign : "left"}}>
+
+            <li>
+            The ‘List for days’ was unintuitive and
             unrecognizable. Users were unable to understand
             the meaning behind the term. Something along the
             lines of ‘best before’ or ‘expiry’ would be more
             consistent with the real world
-            ● The placement and size of ‘Pickup Location’ was not
+            </li>
+
+            <li>
+            The placement and size of ‘Pickup Location’ was not
             noticeable. Also changing it to ‘Select pickup
             location’ would allow users to get a better
             understanding of the action needed to be done
+            </li>
             Fig 3: Accessing Rice item
             from recent community
             donations list
@@ -122,23 +131,32 @@ export default class About extends Component {
             Fig 7: Rice donation view Fig 8: Editing quantity of rice
             in Donation form
             Task 2: Editing information for an added donation item
-            Inputs/Assumptions ● User is on main screen
+            Inputs/Assumptions 
+            
+            <ul>
+            
+            <li>
+            User is on main screen
             Steps
-            ● Click on the ‘timeline’ icon
-            ● Scroll through timeline till rice item is found
-            ● Click on the rice listing
-            ● Click on the ‘Edit’ button in the rice information
-            dialog box
-            ● Enter the correct information in the quantity of rice
-            ● Click on the ‘Submit’ button once done
-            OR
-            ● Scroll through the recent items list to find the
-            donated item
-            ● Click on the rice listing
-            ● Click on the ‘Edit’ button in the rice information
-            dialog box
-            ● Enter the correct information in quantity
-            ● Click on the ‘Submit’ button once done
+            </li>
+            <li>Click on the ‘timeline’ icon</li>
+            <li>Scroll through timeline till rice item is found</li>
+            <li>Click on the rice listing</li>
+            <li>Click on the ‘Edit’ button in the rice information
+            dialog box</li>
+            <li>Enter the correct information in the quantity of rice</li>
+            <li>Click on the ‘Submit’ button once done</li>
+            <li>Scroll through the recent items list to find the
+            donated item</li>
+            <li>Click on the ‘Edit’ button in the rice information
+            dialog box</li>
+            <li>Click on the ‘Edit’ button in the rice information
+            dialog box</li>
+            <li> Enter the correct information in quantity</li>
+            <li>Click on the ‘Submit’ button once done</li>
+       
+
+            </ul>
             Instructions for user Task Card 2
             Will the users know
             what to do?
@@ -238,6 +256,8 @@ export default class About extends Component {
             INDIVIDUAL CONTRIBUTIONS
             Aditya Ranganathan: Screens, Introduction, Internal Walkthrough
             Karthik Singh: Screens, Task Cards, Changes
+
+            </ul>
               
             </div>
         )
