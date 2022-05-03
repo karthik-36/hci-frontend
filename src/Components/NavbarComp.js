@@ -47,7 +47,7 @@ export default class NavbarComp extends Component {
                     <Switch>
                  
 
-                        <Route path="/concept">
+                        <Route style = {{}} path="/concept">
                             <About />
                         </Route>
 

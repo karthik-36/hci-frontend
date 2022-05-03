@@ -5,13 +5,10 @@ export default class Home extends Component {
         return (
 
             <>
-            HOME
-
-            ====
+      
+              
             
-            
-            
-            Goal of the Project
+            <h1> Goal of the Project </h1>
             
             -------------------
             
