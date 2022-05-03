@@ -1,5 +1,14 @@
 import React, { Component } from 'react'
 
+import t11 from "./images/t11.PNG"
+import t12 from "./images/t12.PNG"
+import t21 from "./images/t21.PNG"
+import t22 from "./images/t22.PNG"
+import t23 from "./images/t23.PNG"
+import t24 from "./images/t24.PNG"
+import t31 from "./images/t31.PNG"
+import t32 from "./images/t32.PNG"
+import t33 from "./images/t33.PNG"
 
 
 export default class About extends Component {
@@ -7,10 +16,21 @@ export default class About extends Component {
         return (
             <div>
 
-            Group 8 CS 522
-            FORMATIVE EVALUATION
-            FORAGER: Handling food wastage through the community
-            INTRODUCTION
+                
+                <img src={t11} />
+                <img src={t12} />
+                <img src={t21} />
+                <img src={t22} />
+                <img src={t23} />
+                <img src={t24} />
+                <img src={t31} />
+                <img src={t32} />
+                <img src={t33} />
+    
+          <h1>FORMATIVE EVALUATION </h1> 
+          <h2>FORAGER: Handling food wastage through the community </h2> 
+            <br/>
+            <h2>INTRODUCTION</h2>
             Our project leverages a community-driven approach to handle food wastage by donating excess
             food which is then received by other users in the application who may be food insecure or just
             lack a certain ingredient. The goal of our project is to develop an application that not only raises

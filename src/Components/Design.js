@@ -1,33 +1,35 @@
 import React, { Component } from 'react'
 
-import t11 from "./images/t11.PNG"
-import t12 from "./images/t12.PNG"
-import t21 from "./images/t21.PNG"
-import t22 from "./images/t22.PNG"
-import t23 from "./images/t23.PNG"
-import t24 from "./images/t24.PNG"
-import t31 from "./images/t31.PNG"
-import t32 from "./images/t32.PNG"
-import t33 from "./images/t33.PNG"
+
+import t1 from "./images/t11.PNG"
+import t2 from "./images/t12.PNG"
+import t3 from "./images/t21.PNG"
+import t4 from "./images/t22.PNG"
+import t5 from "./images/t23.PNG"
+import t6 from "./images/t24.PNG"
+import t7 from "./images/t31.PNG"
+import t8 from "./images/t32.PNG"
 
 
 export default class About extends Component {
     render() {
 
 
+
+
+
         return (
             <div style={{ textAlign: "left" }}>
 
+                <img src={t1} />
+                <img src={t2} />
+                <img src={t3} />
+                <img src={t4} />
+                <img src={t5} />
+                <img src={t6} />
+                <img src={t7} />
+                <img src={t8} />
 
-                <img src={t11} />
-                <img src={t12} />
-                <img src={t21} />
-                <img src={t22} />
-                <img src={t23} />
-                <img src={t24} />
-                <img src={t31} />
-                <img src={t32} />
-                <img src={t33} />
 
                 <h2>Design Challenge : Adding new food donations and specifying details </h2>
 
