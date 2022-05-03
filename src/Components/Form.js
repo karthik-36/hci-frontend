@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
-import t11 from "./images/1.jpeg"
-import t12 from "./images/2.jpeg"
-import t21 from "./images/3.jpeg"
-import t22 from "./images/4.jpeg"
-import t23 from "./images/5.jpeg"
-import t24 from "./images/6.jpeg"
-import t31 from "./images/7.jpeg"
-import t32 from "./images/8.jpeg"
-
+import t11 from "./images/t11.PNG"
+import t12 from "./images/t12.PNG"
+import t21 from "./images/t21.PNG"
+import t22 from "./images/t22.PNG"
+import t23 from "./images/t23.PNG"
+import t24 from "./images/t24.PNG"
+import t31 from "./images/t31.PNG"
+import t32 from "./images/t32.PNG"
+import t33 from "./images/t33.PNG"
 
 
 export default class About extends Component {
@@ -25,7 +25,7 @@ export default class About extends Component {
                 <img src={t24} />
                 <img src={t31} />
                 <img src={t32} />
-         
+                <img src={t33} />
     
           <h1>FORMATIVE EVALUATION </h1> 
           <h2>FORAGER: Handling food wastage through the community </h2> 
