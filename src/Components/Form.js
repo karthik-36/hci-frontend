@@ -1,5 +1,12 @@
 import React, { Component } from 'react'
-
+import t11 from "./images/t11.jpeg"
+import t12 from "./images/t12.jpeg"
+import t21 from "./images/t21.jpeg"
+import t22 from "./images/t22.jpeg"
+import t23 from "./images/t23.jpeg"
+import t31 from "./images/t31.jpeg"
+import t32 from "./images/t32.jpeg"
+import t33 from "./images/t33.jpeg"
 
 
 export default class Form extends Component {
@@ -7,7 +14,7 @@ export default class Form extends Component {
         return (
             <div style={{ fontSize: "24px " }}>
                 <br />
-                <h2>  Home </h2>
+                <h2>  Formative Evaluation </h2>
                 <br />
                 <div></div>
 
@@ -80,6 +87,8 @@ export default class Form extends Component {
                 <div style={{ textAlign: "center" }}>  <b> INTERNAL WALKTHROUGH </b> </div>
 
                 <br />
+                <img src={t11} />
+                <img src={t12} />
                 <div style={{ textAlign: "left" }}>  <b> Task 1: Add a new listing for donation/food item </b> </div>
                 <li>Inputs/Assumptions
                     <li>User is on the main screen</li>
@@ -139,6 +148,7 @@ export default class Form extends Component {
                 <br />
 
                 <br />
+                
                 <div style={{ textAlign: "left" }} >  <b> Task 2: Editing information for an added donation item
                     Inputs/Assumptions ● User is on main screen </b> </div>
                 <li>Inputs/Assumptions
@@ -159,7 +169,7 @@ export default class Form extends Component {
 
                 </ul>
 
-                <li style={{ textAlign: "left" }}>Instructions for user Task Card 1
+                <li style={{ textAlign: "left" }}>Instructions for user Task Card 2
                     <li>Will the users know
                         what to do?
                         Yes. The user realized they need to click on the ‘plus’ sign to
@@ -215,12 +225,14 @@ export default class Form extends Component {
 
                 <ul style={{ textAlign: "left" }}>
 
-                    <li>
-                        Fig 1: Main screen interface Fig 2: New Donation Form
+                    <li><img src={t21} />
+                        <img src={t22} />
+                        Fig 1 and 2: Main screen interface and New Donation Form
                     </li>
 
 
                     <li>
+                        <img src={t23} />
                         Fig 3: Accessing Rice item
                         from recent community
                         donations list
@@ -228,19 +240,21 @@ export default class Form extends Component {
                     </li>
 
 
-                    <li>
+                    <li><img src={t31} />
                         Fig 4: Rice donation view Fig 5: Editing quantity of rice
                         in Donation form
                     </li>
 
 
                     <li>
+                    <img src={t32} />
                         Fig 6: Accessing rice item
                         from timeline
                     </li>
 
 
                     <li>
+                    <img src={t33} />
                         Fig 7: Rice donation view Fig 8: Editing quantity of rice
                         in Donation for
                     </li>
