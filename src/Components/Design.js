@@ -1,41 +1,61 @@
 import React, { Component } from 'react'
 
+import t11 from "./images/t11.PNG"
+import t12 from "./images/t12.PNG"
+import t21 from "./images/t21.PNG"
+import t22 from "./images/t22.PNG"
+import t23 from "./images/t23.PNG"
+import t24 from "./images/t24.PNG"
+import t31 from "./images/t31.PNG"
+import t32 from "./images/t32.PNG"
+import t33 from "./images/t33.PNG"
+
+
 export default class About extends Component {
     render() {
 
 
-        
-
-
         return (
-            <div style = {{ textAlign : "left"}}>
+            <div style={{ textAlign: "left" }}>
+
+
+                <img src={t11} />
+                <img src={t12} />
+                <img src={t21} />
+                <img src={t22} />
+                <img src={t23} />
+                <img src={t24} />
+                <img src={t31} />
+                <img src={t32} />
+                <img src={t33} />
+
                 <h2>Design Challenge : Adding new food donations and specifying details </h2>
 
                 <h2>Design Challenge : Tracking food donated and received </h2>
 
-                
+
 
 
                 <br />
 
                 <p>
-                In iteration 1, our initial designs showed a calendar-style summary interface that would make it highly learnable for novice users but poor in efficiency for expert users as they would be unable to keep track of their trends and progress.
+                    In iteration 1, our initial designs showed a calendar-style summary interface that would make it highly learnable for novice users but poor in efficiency for expert users as they would be unable to keep track of their trends and progress.
 
-                The Dashboard style interface with recent events improves efficiency by a wide margin but makes it difficult for users to get summary statistics regarding their donation/reception of food at a single glance.
+                    The Dashboard style interface with recent events improves efficiency by a wide margin but makes it difficult for users to get summary statistics regarding their donation/reception of food at a single glance.
 
-                Taking elements from iteration 1, in iteration 2 we focus on trying to find a balance between showing enough information to maintain high efficiency while at the same keeping learnability and readability at an appropriate level so that users can easily understand the data.
+                    Taking elements from iteration 1, in iteration 2 we focus on trying to find a balance between showing enough information to maintain high efficiency while at the same keeping learnability and readability at an appropriate level so that users can easily understand the data.
 
-                In iteration 2, we experiment with different designs such as the TImeline which shows the entire list of donated and received items on a date-wise basis. This is poor in efficiency as users will have to scroll to access each item and there’s no summarized data being presented to the users. We then try implementing a simple minimalist interface that shows just summary statistics of each reception/donation. While high in learnability and readability, it doesn’t allow expert users to keep track of their trends and understand whether by how large a margin their contributions. We further designed a more balanced interface that implements both the graph and donation statistics which can be interchanged by clicking on the arrow keys.
+                    In iteration 2, we experiment with different designs such as the TImeline which shows the entire list of donated and received items on a date-wise basis. This is poor in efficiency as users will have to scroll to access each item and there’s no summarized data being presented to the users. We then try implementing a simple minimalist interface that shows just summary statistics of each reception/donation. While high in learnability and readability, it doesn’t allow expert users to keep track of their trends and understand whether by how large a margin their contributions. We further designed a more balanced interface that implements both the graph and donation statistics which can be interchanged by clicking on the arrow keys.
 
-                Taking the best elements from iteration 2, we design the final interface where we implement a graph to show users their trends and compare the donation and reception trends. The graph is large, easily noticeable, and promotes readability. At the bottom of the screen, we implement summary statistics in a split window to promote readability, increase the efficiency of data being processed and take it one step further by adding a
+                    Taking the best elements from iteration 2, we design the final interface where we implement a graph to show users their trends and compare the donation and reception trends. The graph is large, easily noticeable, and promotes readability. At the bottom of the screen, we implement summary statistics in a split window to promote readability, increase the efficiency of data being processed and take it one step further by adding a
 
-                timeline window as well to allow users to gain granular control over the data they’re being shown.
+                    timeline window as well to allow users to gain granular control over the data they’re being shown.
 
                 </p>
 
 
                 <h2>Design Challenge : Communication between Donor and Receiver</h2>
-                
+
 
 
 
@@ -65,7 +85,7 @@ export default class About extends Component {
 
                 APPENDIX
 
-                
+
 
                 Aditya’s Individual Designs
 
@@ -185,24 +205,24 @@ export default class About extends Component {
 
                 Design Reflection
 
-            <ul style = {{textAlign : "left"}}>
-                <li>
-                In design 1 we first tried to focus more on efficiency only to realize that changing one component might affect another like increasing too much efficiency and making everything on the smartphone reachable by the thumb might decrease learnability & readability due to cluttering. So sometimes we need to balance between different factors. We get only a limited number of points which we could allocate as per our apps needs.
-                </li> 
+                <ul style={{ textAlign: "left" }}>
+                    <li>
+                        In design 1 we first tried to focus more on efficiency only to realize that changing one component might affect another like increasing too much efficiency and making everything on the smartphone reachable by the thumb might decrease learnability & readability due to cluttering. So sometimes we need to balance between different factors. We get only a limited number of points which we could allocate as per our apps needs.
+                    </li>
 
-                <li>
-                In design 2 also as per the feedback from interviewees they wanted to know a lot more details about the food then we had previously thought. A simple food name might not suffice to give an incentive to most of our users to use the app & reduce wastage. To make it more trustworthy we had to add in more food detail inputs, multiple photos of food etc
-                </li> 
+                    <li>
+                        In design 2 also as per the feedback from interviewees they wanted to know a lot more details about the food then we had previously thought. A simple food name might not suffice to give an incentive to most of our users to use the app & reduce wastage. To make it more trustworthy we had to add in more food detail inputs, multiple photos of food etc
+                    </li>
 
 
-                <li>
-                In design 3 We initially wanted to show overall statistics that would sum up the entire history, but as we went on through the iterations we realized that it is difficult to sum up the food donation details as standards for measuring food are dependent on the food itself. Some of the food items were measured in oz,gal,kg,count etc. so the final design we settled for (iteration no. 4) with the timeline view was a massive detour compared to the evolution from iteration 1,2 & 3.
-                </li> 
+                    <li>
+                        In design 3 We initially wanted to show overall statistics that would sum up the entire history, but as we went on through the iterations we realized that it is difficult to sum up the food donation details as standards for measuring food are dependent on the food itself. Some of the food items were measured in oz,gal,kg,count etc. so the final design we settled for (iteration no. 4) with the timeline view was a massive detour compared to the evolution from iteration 1,2 & 3.
+                    </li>
 
-                <li>
-                In design 4 was probably the easiest and straightforward, there is very little scope for improvement when it comes to messaging and that's the reason why most messaging applications use the left(sender) - right(receiver) view to communicate.
-                </li> 
-            </ul>
+                    <li>
+                        In design 4 was probably the easiest and straightforward, there is very little scope for improvement when it comes to messaging and that's the reason why most messaging applications use the left(sender) - right(receiver) view to communicate.
+                    </li>
+                </ul>
 
                 In our group discussions we tried to take the best from both our individual iterative designs for each challenge in our final design. Sometimes we took all of one individual contribution and discarded the other and sometimes we tried to mix the best features.
 
