@@ -16,6 +16,15 @@ export default class About extends Component {
         return (
             <div>
                 <h2> Final Implementation</h2>
+
+                <br/>
+                <h3>Source Code</h3>
+
+                <button class="button button1"><a href="https://github.com/karthik-36/ForagerAndroid"> Github repo</a></button>
+                <br/>
+                <br/>
+
+                <h3>Apk link</h3>
                 <button class="button button1"><a href="https://drive.google.com/file/d/1rFkqY6a6OyLuUzywRs7hXhzwCkBJiuwh/view?usp=sharing"> Download the app </a></button>
 
                 <br />
@@ -23,8 +32,13 @@ export default class About extends Component {
                {/* <a href="https://drive.google.com/file/d/1rFkqY6a6OyLuUzywRs7hXhzwCkBJiuwh/view?usp=sharing">download link</a> */}
 
 
-
+               <br />
+               <br />
+               <br />
+               <br />
                 <h3> Installation Instructions</h3>
+                <br />
+                <br />
                 <ul style={{ textAlign: "left" }}>
                     <li>follow the video instructions to install apk. <br />
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/vK_jgnEe_8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -48,6 +62,11 @@ export default class About extends Component {
                 <br />
                 <br />
                 <br />
+                <h3 style = {{ textAlign : "center"}}> Demo Videos </h3>
+                <br />
+                <br />
+                <br />
+                <br />
                 <ul style={{textAlign : "left"}}>
 
                     <li>
@@ -58,8 +77,6 @@ export default class About extends Component {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/4OiTdAj6q3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br />
                     </li>
-
-                    <li></li>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/fdNZ00pELvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br />
 
