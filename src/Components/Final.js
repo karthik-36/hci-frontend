@@ -23,15 +23,20 @@ export default class About extends Component {
 
 
                 <h3> Installation Instructions</h3>
-                <ul>
+                <ul style = {{ textAlign : "center"}}>
                     <li>follow the video instructions to install apk. <br />
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/vK_jgnEe_8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </li>
 
+                    <li>
+                        <ul style = {{textAlign : "left"}}>
+                            <li>after the app is installed you need to open settings</li>
+                            <li>select permissions then you need to manually give location, camera, storage permissions</li>
+                        </ul>
 
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    </li>
+
+
 
 
 
