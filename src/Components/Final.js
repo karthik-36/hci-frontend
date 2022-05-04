@@ -70,14 +70,24 @@ export default class About extends Component {
                 <ul style={{textAlign : "left"}}>
 
                     <li>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sYOEJpDsblU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h4>Keeping track of items</h4>
+                    <iframe width="760" height="415" src="https://www.youtube.com/embed/sYOEJpDsblU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br />
+                    <br />
                     <br />
                     </li>
                     <li>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4OiTdAj6q3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h4>Accepting new donation items</h4>
+                    <iframe width="760" height="415" src="https://www.youtube.com/embed/4OiTdAj6q3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br />
+                    <br />
+                    <br />
                     <br />
                     </li>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fdNZ00pELvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <li>
+                    <h4>Accepting new food item for donation</h4>
+                    <iframe width="760" height="415" src="https://www.youtube.com/embed/fdNZ00pELvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </li>
                     <br />
 
                 </ul>
