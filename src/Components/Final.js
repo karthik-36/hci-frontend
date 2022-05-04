@@ -46,8 +46,8 @@ export default class About extends Component {
 
                     <li>
                         <ul style={{ textAlign: "left" }}>
-                            <li>after the app is installed you need to open settings</li>
-                            <li>select permissions then you need to manually give location, camera, storage permissions</li>
+                            <li>after the app is installed you need to open settings.</li>
+                            <li>select permissions then you need to manually give location, camera, storage permissions.</li>
                         </ul>
 
                     </li>
